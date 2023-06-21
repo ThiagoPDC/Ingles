@@ -1,0 +1,34 @@
+body, html {
+    height: auto;
+    margin: 0;
+    font-family: 'Times New Roman';
+    font-size: 14;
+  }
+  body{
+    background-image: url("indexImage/85814.jpg");   
+    max-width: 100%;
+    height: auto;
+    background-position: center top;
+    background-repeat: repeat;
+    background-size: cover;
+    color:azure;
+  }
+  p.title{
+    font-size: 140%;
+    text-align: center;
+  }
+  p.header1{
+    font-size: 130%;
+    text-align: left;
+  }
+  p.normal-text{
+    font-size: 100%;
+    text-align: justify;
+  }
+  img.imgR{
+    float: right;
+  }
+  img.upscale:hover{
+    transform: scale(250%);
+    transition: 500ms;
+  }
